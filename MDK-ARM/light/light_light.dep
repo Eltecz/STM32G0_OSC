@@ -1,0 +1,302 @@
+Dependencies for Project 'light', Target 'light': (DO NOT MODIFY !)
+F (startup_stm32g030xx.s)(0x62C7F6F1)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1"-I.\RTE\_light-Id:\APP\Keil_v5\ARM\PACK\Keil\STM32G0xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-Id:\APP\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525"--pd "STM32G030xx SETA 1"--list startup_stm32g030xx.lst--xref -o light\startup_stm32g030xx.o--depend light\startup_stm32g030xx.d)
+F (..\user\sys.c)(0x628B4C68)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/sys.o -MD)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+F (..\user\delay.c)(0x61743DDB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/delay.o -MD)
+I (..\user\delay.h)(0x61743C7C)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+F (..\user\uart.c)(0x62CE7034)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/uart.o -MD)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+F (..\user\adc.c)(0x62CE91A1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/adc.o -MD)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+F (..\user\timer.c)(0x62D00283)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/timer.o -MD)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+F (..\user\gpio.c)(0x62C85007)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/gpio.o -MD)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+F (..\user\spi.c)(0x628B4A2C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/spi.o -MD)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+F (..\user\lcd.c)(0x62C7F2A6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/lcd.o -MD)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+I (..\user\lcd_font.h)(0x6288E8EA)
+F (..\user\lcd_init.c)(0x62C7E911)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/lcd_init.o -MD)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\dma.h)(0x6289F79A)
+F (..\user\dma.c)(0x62C8E4E1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/dma.o -MD)
+I (..\user\dma.h)(0x6289F79A)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+F (..\user\osc.c)(0x62D002C6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/osc.o -MD)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+F (.\main.c)(0x62D001F3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/main.o -MD)
+I (..\user\sys.h)(0x628A2428)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)
+I (..\user\per_conf.h)(0x62CEC6E4)
+I (..\user\gpio.h)(0x62B17C26)
+I (..\user\delay.h)(0x61743C7C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DDFFD6C)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DDFFD72)
+I (..\user\uart.h)(0x62C6FA8B)
+I (..\user\osc.h)(0x62CEE49E)
+I (..\user\adc.h)(0x62C8E63F)
+I (..\user\timer.h)(0x62CEECB1)
+I (..\user\spi.h)(0x6288E809)
+I (..\user\lcd.h)(0x62B17923)
+I (..\user\lcd_init.h)(0x62A5EC41)
+I (..\user\dma.h)(0x6289F79A)
+F (..\Core\Src\system_stm32g0xx.c)(0x616FC65E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -fno-ldm-stm -Ofast -ffunction-sections -w -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../user -I ../MDK-ARM-I./RTE/_light-Id:/APP/Keil_v5/ARM/PACK/Keil/STM32G0xx_DFP/1.3.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Id:/APP/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="525" -DSTM32G030xx -DSTM32G030xx-o light/system_stm32g0xx.o -MD)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g030xx.h)(0x616FC65E)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DDFFD72)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x616FC662)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x616FC662)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CC2EC)
+I (d:\APP\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CC318)
+I (..\Drivers\CMSIS\Include\mpu_armv7.h)(0x616FC662)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x616FC65E)

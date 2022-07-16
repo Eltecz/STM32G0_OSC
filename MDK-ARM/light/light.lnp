@@ -1,0 +1,19 @@
+--cpu Cortex-M0+
+"light\startup_stm32g030xx.o"
+"light\sys.o"
+"light\delay.o"
+"light\uart.o"
+"light\adc.o"
+"light\timer.o"
+"light\gpio.o"
+"light\spi.o"
+"light\lcd.o"
+"light\lcd_init.o"
+"light\dma.o"
+"light\osc.o"
+"light\main.o"
+"light\system_stm32g0xx.o"
+--library_type=microlib --strict --scatter "light\light.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "light.map" -o light\light.axf

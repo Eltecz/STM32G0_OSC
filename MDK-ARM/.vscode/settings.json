@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "uart.h": "c",
+        "sys.h": "c",
+        "gpio.h": "c",
+        "spi.h": "c",
+        "per_conf.h": "c",
+        "timer.h": "c",
+        "lcd_init.h": "c",
+        "lcd.h": "c",
+        "lcd_font.h": "c",
+        "adc.h": "c",
+        "dma.h": "c",
+        "stm32g0xx.h": "c",
+        "stm32g030xx.h": "c",
+        "osc.h": "c",
+        "GUI.C": "cpp",
+        "delay.h": "c"
+    }
+}
