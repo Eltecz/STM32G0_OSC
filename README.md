@@ -4,7 +4,7 @@
 STM32示波器基础版开源代码
 
 #### 介绍
-见[LCEDA](https://oshwhub.com/eltecz/stm32g0osc_s) [B站](https://www.bilibili.com/video/BV1SY4y177Au?)
+见[LCEDA](https://oshwhub.com/eltecz/xing-huo-ji-hua-STM32shi-bo-bi-2)
 本仓库仅保存工程代码，其他见LCEDA
 一般不注释代码，后续讲解见LCEDA
 
