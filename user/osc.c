@@ -1,6 +1,6 @@
 /*
  * @Description:
- * @FilePath: \MDK-ARMd:\¹¤³Ì\STM32\32\g0\osc_v1\user\osc.c
+ * @FilePath: \MDK-ARMd:\Â¹Â¤Â³ÃŒ\STM32\32\g0\osc_v1\user\osc.c
  * @Version: 2.0
  * @Autor: Eltecz
  * @Date: 2022-06-21 15:42:04
@@ -221,7 +221,7 @@ void draw_fonts()
 	LCD_ShowString(oscdev.posx,pos_down1,s,WHITE,BLACK,0);	
 //	osc_showtdiv(oscdev.posx+84,pos_down1);
 
-	sprintf(s,"AD%d:",oscdev.adc_ch+1);
+	sprintf(s,"AD%d:",((oscdev.adc_ch+1==2)?1:2));
 	LCD_ShowString(oscdev.posx+84,pos_down1,s,((key_seletion==ADC_CHSEL))?RED:WHITE,key_seletion_color,!(func_kval(ADC_CHSEL)));	
 	if(oscdev.tb<999)	sprintf(s,"%4dns",oscdev.tb);
 	else				sprintf(s,"%4dus",oscdev.tb/1000);
